@@ -1,0 +1,70 @@
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxxlarge;
+    font-weight: 700;
+    position: fixed;
+    left: 600px;
+}
+body{
+   background-color: rgb(53, 51, 51);
+   height: 600px;
+}
+.box1{
+    position:fixed;
+    top: 95%;
+    left: 90%;
+    
+    
+}
+.back{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: floralwhite;
+}
+.picture{
+    position: relative;
+    top: 130px;
+    left: 100px;
+    z-index: 2;
+    transition: 0.5s;
+    width: 640px;
+}
+.en{
+    color: beige;
+    width: 285px;
+    position: relative;
+    bottom: 765px;
+    left: 770px;
+    width: 300px;
+    height: 480px;
+    overflow: auto;
+    z-index: 3;
+}
+.ch{
+    color: beige;
+    width: 285px;
+    position: relative;
+    bottom: 1245px;
+    left: 1090px;
+    width: 300px;
+    height: 480px;
+    overflow: auto;
+    z-index: 3;
+}
+.picture:hover{
+    z-index: 2;
+    transform: scale(0);
+}
+.hide{
+    position: relative;
+    bottom: 320px;
+    left: 100px;
+    z-index: 1;
+}
+/*.hide:hover{
+    z-index: 2;
+    transform: scale(1);
+}*/
