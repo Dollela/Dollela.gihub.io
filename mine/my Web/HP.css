@@ -7,6 +7,20 @@ h1{
     background-image: url(../pictures/IMG_20241113_145821.jpg);
     font-style: italic;
 }
+.box1{
+    position:fixed;
+    top: 95%;
+    left: 90%;
+    z-index: 2;
+    
+}
+.back{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: floralwhite;
+}
 .F{
     
     text-decoration: none;
